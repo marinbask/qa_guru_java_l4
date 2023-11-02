@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class Lesson4 {
+public class Wikitest {
     @BeforeAll
     static void beforeAll(){
         Configuration.browserSize = "1920x1080";
@@ -35,6 +35,5 @@ public class Lesson4 {
                 "    $(\"#second\").should(visible).click();\n" +
                 "  }\n" +
                 "}" ));
-
     }
 }
