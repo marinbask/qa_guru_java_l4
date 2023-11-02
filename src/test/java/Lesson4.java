@@ -35,5 +35,6 @@ public class Lesson4 {
                 "    $(\"#second\").should(visible).click();\n" +
                 "  }\n" +
                 "}" ));
+
     }
 }
