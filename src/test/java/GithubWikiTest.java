@@ -9,16 +9,16 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class Wikitest {
+public class GithubWikiTest {
     @BeforeAll
     static void beforeAll(){
         Configuration.browserSize = "1920x1080";
         Configuration.pageLoadStrategy = "eager";
         Configuration.baseUrl = "https://github.com/";
 
-}
+    }
     @Test
-    void checkJunit5ExampleTest() {
+    void checkJunit5Test() {
         open("selenide/selenide");
         $("#wiki-tab").click();
         $(".wiki-rightbar ul li button").click();
